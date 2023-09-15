@@ -1,9 +1,11 @@
 * {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
-
+body{
+    background-color: white;
+}
 .container>.containerTwo,
 .dark {
     /* border: 1px solid black; */
@@ -181,7 +183,7 @@ button {
 }
 
 p {
-    font-size: 18px;
+    font-size: 15px;
 
 }
 
@@ -193,4 +195,32 @@ p {
 .dark {
     display: flex;
     gap: 5px;
+}
+.detail-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -40px;
+}
+.long-line{
+    width: 450px;
+    height: 2px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+.detail-section{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 150px;
+    width: 450px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.first-one,.second-one{
+    display: flex;
+    justify-content: space-around;
 }
